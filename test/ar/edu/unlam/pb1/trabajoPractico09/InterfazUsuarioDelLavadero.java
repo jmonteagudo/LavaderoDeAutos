@@ -35,6 +35,9 @@ public class InterfazUsuarioDelLavadero {
 				actual.setNombreDelPropietario(nombre);
 				elLavaderoDeWalter.ingresarVehiculo(actual);
 				break;
+			case 2:
+				System.out.println("Se lavó el vehículo");
+				//System.out.println(elLavaderoDeWalter.lavarVehiculo());
 			case 4:
 				System.out.println("Los autos en espera son");
 				System.out.println(elLavaderoDeWalter.verLosAutosEnEspera());
